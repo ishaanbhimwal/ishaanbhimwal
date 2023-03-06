@@ -32,6 +32,8 @@ jobs:
 
   acti_comm:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -49,6 +51,8 @@ jobs:
 
   iso_calender:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -68,6 +72,8 @@ jobs:
 
   issue_pr_lang:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -87,6 +93,8 @@ jobs:
           
   languages:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -110,6 +118,8 @@ jobs:
 
   metadata:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -127,6 +137,8 @@ jobs:
 
   repositories:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
