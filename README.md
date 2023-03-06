@@ -22,7 +22,7 @@
 <!--
 **ishaanbhimwal/ishaanbhimwal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-![Hugo's github stats](https://github-readme-stats.vercel.app/api?username=ishaanbhimwal&show_icons=true&theme=dracula&hide=stars,issues)
+![Ishaan's github stats](https://github-readme-stats.vercel.app/api?username=ishaanbhimwal&show_icons=true&theme=dracula&hide=stars,issues)
 
 
 
