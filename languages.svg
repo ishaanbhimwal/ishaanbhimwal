@@ -16,16 +16,23 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 3.12kb of code in 8 edited files across 6 commits over last 19 days</small>
+                <small>estimation from 4.33kb of code in 9 edited files across 8 commits over last 20 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="255.44732662784543" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="255.44732662784543" y="0" width="204.55267337215457" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="180.05798969072166" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="180.05798969072166" y="0" width="155.45747422680412" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="335.51546391752584" y="0" width="124.48453608247422" height="8" fill="#563d7c"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Python
+                    </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#f34b7d" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
