@@ -13,6 +13,8 @@ concurrency:
 jobs:
   header:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -32,6 +34,8 @@ jobs:
 
   acti_comm:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -47,10 +51,12 @@ jobs:
           user: ishaanbhimwal
           template: classic
           base: activity, community
-          config_timezone: Asia/Kolkata
+          config_timezone: Europe/Berlin
 
   iso_calender:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -72,6 +78,8 @@ jobs:
 
   issue_pr_lang:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -93,6 +101,8 @@ jobs:
           
   languages:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -118,6 +128,8 @@ jobs:
 
   metadata:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -137,6 +149,8 @@ jobs:
 
   repositories:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
