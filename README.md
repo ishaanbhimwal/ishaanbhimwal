@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hello there 👋
 
 <a href="https://github.com/ishaanbhimwal">
   <img align="center" width="49%" src="./header.svg" />
