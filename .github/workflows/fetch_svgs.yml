@@ -3,7 +3,8 @@ name: Get all latest stats SVG
 
 on:
   # Schedule updates
-  schedule: [{cron: "0 0 * * *"}]
+  # schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 0 * * 1"}]
   push: {branches: "main"}
 
 concurrency:
